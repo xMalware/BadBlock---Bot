@@ -1,0 +1,12 @@
+REGISTER_FAST_SAME: Mot de passe similaires au login en 15 secondes
+LOGIN_FAST_SAME: Mot de passe similaires au register en 30 secondes
+LOGIN_FAST: Deux secondes pour se login minimum
+REGISTER_FAST: Cinq secondes pour se register minimum
+LOGIN_IP_FAST: Minimum 2 connexions de la même plage IP (XX.X**.***.***) en moins de 5 secondes
+CHECK_IP: V�rification de l'IP
+SYLLABES_CHECK: V�rification des syllabes � la connexion pour les pseudos de >= 5 caract�res. 0 syllabes => kick
+LENGTH_CHECK: V�rification du nombre de connexions/registers en 30 secondes avec le m�me nombre de caract�res. => 5 fois en 30s => kick, pas de ban
+PACKETS_CHECK: V�rification des packets de keep alive
+
+(
+[
